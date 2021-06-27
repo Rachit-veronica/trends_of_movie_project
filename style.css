@@ -10,6 +10,9 @@ header{
     background-size: cover;
     background-position: center;
 }
+.logo ul li a{
+    margin-right: 115vh;
+ }
 ul{
    
     float: right ;
@@ -26,41 +29,55 @@ ul li a{
     border: 1px solid transparent;
     transition: 0.6s ease;
 }
-ul li a:hover{
+.neg ul li a:hover{
     background-color: rgb(255, 132, 0);
     color: black;
 }
 ul li.active a{
     background-color: #fff;
-    color: black;}
-
-/* .logo {
-    float: left;
-    width: 130;
-    height: 130;
-    padding: 9px;
-} */
-
-.main{
+    color: black;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.neg{
     max-width: 1300px;
     margin: auto;
 }
-.search{
+.title{
     position: absolute;
     top: 40%;
+    left: 10%;
+    font-size: 1.2cm;
+    color:orange;
+
+}
+.main{
+    position: absolute;
+    top: 65%;
     left: 20%;
 }
-.search input{
-    width: 500px;
-    height: 40px;
+.main input{
+    height: 50px;
+    font-size: 1.2cm;
+    width: 90%;
+    padding-left: 10px;
+    border-radius: 15px;
+    
 }
-.search_button{
+.button{
     position: absolute;
-    top: 40%;
-    left: 60%;
+    top: 66%;
+    left: 65%;  
 }
-.search_button button{
-    width: 90px;
+.button input{
+    border-color: white;
     height: 40px;
-    border: 2px solid black;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.button input:hover{
+    background-color:rgba(255, 111, 0, 0.679);
 }
