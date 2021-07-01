@@ -1,0 +1,18 @@
+.contain{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;      
+}
+.middle{
+    min-height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.main img{
+    margin: 35px;
+    width: 100px;
+}
